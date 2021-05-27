@@ -1,0 +1,15 @@
+
+<h1>
+    <%= title %>
+</h1>
+
+<hr>
+
+<ul>
+    <% albums.forEach(function (album) {%>
+        <li>
+            <strong><%= album.title %> </strong> - <%= album.author %>
+        </li>
+    <% }); %>
+
+</ul>
