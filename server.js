@@ -7,7 +7,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('port', 3000);
 
 app.get('/', function (req, resp) {
-    const title = "Favorites Albums";
+    const title = "Favorite Albums";
 
     const albums = [
         { title: 'Ten', author: 'Pearl Jam' },

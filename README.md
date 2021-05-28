@@ -25,4 +25,4 @@ or...
 
 ## Result
 
-![demo](_readme/demo.png)
+![demo](_readme/result.png)
